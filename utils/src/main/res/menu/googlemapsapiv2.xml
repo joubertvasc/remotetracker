@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnMap"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/mapview"
+        android:title="@string/mnSeeMap"/>
+    <item
+        android:id="@+id/mnSatelite"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/satelliteview"
+        android:title="@string/mnSeeSatellite"/>
+    <item
+        android:id="@+id/mnHybrid"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/hybridview"
+        android:title="@string/mnSeeHybrid"/>
+    <item
+        android:id="@+id/mnTerrain"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/terrainview"
+        android:title="@string/mnSeeTerrain"/>
+    <item
+        android:id="@+id/mnMyLocation"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@drawable/myplace"
+        android:title="@string/mnMyPlace"/>
+    <item
+        android:id="@+id/mnScreenCapture"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:icon="@drawable/screenshot"
+        android:title="@string/mnScreenCapture"/>
+    
+</menu>

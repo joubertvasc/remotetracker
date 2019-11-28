@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tos">Ao fazer o download, instalar ou usar o software RemoteTracker, acessar ou usar o serviço RemoteTracker (juntos, os "Produtos" ou "Serviços"), ou acessar ou usar qualquer parte do conteúdo disponível nos produtos, você concorda em se comprometer com o seguinte: \n \n
+
+(1) usar com segurança: nunca usar as informações obtidas pelo RemoteTracker e tentar obter de volta o seu DISPOSITIVO. ENVIAR INFORMAÇÕES OBTIDAS
+    A polícia local, que são treinados para este serviço. Lembre-se que não vale a pena arriscar a sua vida por causa de um dispositivo que pode ser
+    comprado novamente. O desenvolvedor ou qualquer sócio não tem responsabilidade de mau uso deste software\n
+(2) os termos encontrados em nossa página de licença; \n
+(3) os termos e condições adicionais estabelecidos abaixo: \n\n
+
+Antes de continuar, você deve ler cada um desses dois documentos, que juntos formam um acordo vinculativo entre si e em relação JVSoftware
+o uso dos produtos. Coletivamente, os Termos de Licenciamento e os Termos Adicionais são referidos como os "Termos". \n
+
+Como condição de download, acessar ou usar os produtos, você também concorda com os termos da Política de Privacidade JVSoftware. \n
+1. Utilização dos produtos. JVSoftware lhe concede uma licença não exclusiva, licença não-transferível para acessar o serviço RemoteTracker e para acessar o conteúdo
+  (Conforme abaixo definido), dentro dos produtos e de acordo com os Termos. \n
+2. Restrições de uso. JVSoftware apenas autoriza a utilização de RemoteTracker para acompanhar o seu próprio dispositivo se o perder ou se foi roubado.
+   Esta informação só pode ser usado para recuperar o seu dispositivo perdido. Você não pode usar esta informação para qualquer outra finalidade. Qualquer outro uso deste
+   software é de responsabilidade do usuário e deve estar de acordo com a lei. \n
+3. Conduta adequada; cumprimento da lei. Você concorda que você é responsável por sua própria conduta e conteúdo ao usar os produtos, e para qualquer
+   consequências resultantes. Você concorda em usar os produtos somente para os fins legais, adequadas e de acordo com os Termos e qualquer outra política ou diretrízes que JVSoftware disponibilizar. \n
+4. EXCLUSÃO DE GARANTIAS E LIMITAÇÕES DE RESPONSABILIDADE. JVSOFTWARE E SEUS AGENTES NÃO GARANTEM OU garantias de rigor OU INTEGRIDADE DE QUALQUER CONTEÚDO OU OS PRODUTOS. \n
+5. JVSOFTWARE E SEUS AGENTES REJEITAM TODAS AS GARANTIAS EM LIGAÇÃO COM O CONTEÚDO E OS PRODUTOS, E NÃO SERÁ RESPONSÁVEL POR QUAISQUER DANOS OU PERDA RESULTANTE DE SEU USO DO CONTEÚDO OU DOS PRODUTOS. \n
+6. Apoio: RemoteTracker é um software sem qualquer garantia. Você deve ter certeza que pretende utilizar este software sem garantia de suporte dos desenvolvedores.
+   Suas perguntas podem ser enviadas para http://remotetracker.sourceforge.net/support.html mas isso não significa que você obter uma resposta. \n
+7. Código fonte: RemoteTracker não é um projeto de código aberto. Você não pode obter o código-fonte do projeto, não pode obter os fontes por engenharia reversa ou qualquer outra técnica.\n</string>
+    <string name="tosTitle">RemoteTracker Terms of Service</string>
+
+    <string name="hello">Hello World, RemoteTrackerActivity!</string>
+
+    <string name="configMetrics">Padrão de Medidas</string>
+    <string name="configUsesMetricStandards">Usar padrão métrico</string>
+    <string name="configUsesMetricStandardsExample">Metros, Km/h&#8230;</string>
+    <string name="configOther">Outro</string>
+    <string name="configDebug">Modo depuração</string>
+    <string name="configDebugExample">No modo depuração RemoteTracker irá criar um arquivo chamado remotetracker.txt no cartão de memória com informações úteis para o desenvolvedor corrigir falhas.</string>
+    <string name="configAdmin">Administrador de Dispositivo</string>
+    <string name="configDeviceAdminTitle">Administrador de Dispositivo?"</string>
+    <string name="configDeviceAdminSummary">Marque se deseja usar o comando WIPEDATA para remotamente restaurar o padrão de fábrica, formatar o cartão de memória além de evitar que alguém desinstale o RemoteTracker.</string>
+    <string name="configSecurity">Segurança</string>
+    <string name="configOwnerName">Nome do Proprietário</string>
+    <string name="configOwnerNameExample">Seu nome será enviado para seus contatos de emergência.</string>
+    <string name="configPassword">Senha</string>
+    <string name="configPasswordExample">Digite sua senha</string>
+    <string name="configQuestion">Pergunta secreta</string>
+    <string name="configQuestionExample">Informe uma pergunta secreta para poder reaver sua senha caso você a esqueça.</string>
+    <string name="configAnswer">Resposta secreta</string>
+    <string name="configAnswerExample">Informe a resposta para a sua pergunta secreta.</string>
+    <string name="configEnvioEMails">Enviando E-Mails</string>
+    <string name="configNome">Nome </string>
+    <string name="configInformeNomeCompleto">Digite seu nome completo</string>
+    <string name="configEnderecoEMail">Endereço de E-Mail</string>
+    <string name="configInformeEnderecoEMail">Informe seu endereço de e-mail</string>
+    <string name="configExigeAutenticacao">Exige autenticação</string>
+    <string name="configSMTPExigeAutenticacao">O servidor SMTP exige autenticação</string>
+    <string name="configNomeLogin">Nome de login</string>
+    <string name="configInformeNomeLogin">Informe seu nome de login</string>
+    <string name="configSenha">Senha</string>
+    <string name="configInformeSenha">Informe sua senha</string>
+    <string name="configServidorSMTP">SMTP</string>
+    <string name="configInformeServidorSMTP">Informe o endereço do servidor SMTP</string>
+    <string name="configPorta">Porta</string>
+    <string name="configInformePorta">Informe a porta do servidor SMTP</string>
+    <string name="configGPS">Configurações do GPS</string>
+    <string name="configGPSTimeout">Timeout</string>
+    <string name="configGPSTimeoutExplanation">Tempo, em segundos, para tentar obter as coordenadas usando o GPS. Quando este tempo acabar a localização será obtida pelo Serviço de Localização do Google.</string>
+    <string name="configDefaultEMailAddress">Informe o endereço de E-Mail padrão</string>
+    <string name="configDefaultEMailAddressExample">Este endereço será utilizado quando o RT receber um comando com retorno por e-mail e não houver uma especificação de e-mail.</string>
+    <string name="configEnvioFTP">Configuração do Servidor FTP</string>
+    <string name="configFTPServer">Endereço do servidor</string>
+    <string name="configFTPServerExample">Informe o endereço do servidor FTP (ftp.foobar.com.br)</string>
+    <string name="configRemotePath">Diretório Remoto</string>
+    <string name="configRemotePathExample">Informe o diretório remoto (/meuDiretorio)</string>
+
+    <string name="msgUnknowcommand">Comando não existe.</string>
+    <string name="msgCommandNotAvailable">Este comando não está disponível em aparelhos Android.</string>
+    <string name="msgWrongPassword">Senha inválida.</string>
+    <string name="msgErrorWhileProcessingCommand">Erro enquanto o comando estava processado.</string>
+    <string name="msgNoDataOrGPSAvailable">GPS e rede não estão disponíveis. Não é possível determinar a posição.</string>
+    <string name="msgPositionFromGoogle">Posição aproximada.</string>
+    <string name="msgPositionFromGPS">Posição do GPS.</string>
+    <string name="msgLat">Lat:</string>
+    <string name="msgLon">Lon:</string>
+    <string name="msgLink">Link:</string>
+    <string name="msgMessageWasDisplayed">A mensagem foi apresentada</string>
+    <string name="msgMessageWasNotDisplayed">A mensagem não pode ser vazia. Por favor use o parâmetro extra: rt#msg,sua mensagem##senha.</string>
+    <string name="msgComments">Sinta-se a vontade para enviar comentários, críticas e sugestões para versões futuras.</string>
+    <string name="msgSending">Enviando&#8230;</string>
+    <string name="msgSubject">E-Mail do RemoteTracker</string>
+    <string name="msgNoReturnEMail">Nenhum endereço de e-mail de retorno foi especificado.</string>
+    <string name="msgInvalidEMailConfigurations">A configuração de E-Mail são inválidas ou estão incompletas. RT não pode responder por e-mail.</string>
+    <string name="msgErrorSendingEMail">Um erro ocorreu enquanto tentava enviar E-Mail. Por favor avalie as configurações.</string>
+    <string name="msgInvalidPassword">Senha Invélida</string>
+    <string name="msgError">Erro!</string>
+    <string name="msgOwnerSIMCard">CHIP do Proprietário</string>
+    <string name="msgNeedOneSIMCard">Você precisa definir ao menos um cartão CHIP conhecido.</string>
+    <string name="msgSIMCardChanged">Alerta do RemoteTracker: o CHIP de {0} foi trocado.</string>
+    <string name="msgHistoryList">Histórico</string>
+    <string name="msgHistoryListEmpty">O Histórico de Comandos está vazio.</string>
+    <string name="msgNoDefaultEMail">O telefone não possui uma conta padrão de e-mail para receber mensagens.</string>
+    <string name="msgNoFTPServer">Este telefone não possui um servidor FTP configurado para receber arquivos.</string>
+    <string name="msgTypePassword">Por favor informe sua senha</string>
+    <string name="msgCard1">Cartão 1:</string>
+    <string name="msgCard2">Cartão 2:</string>
+    <string name="msgCard3">Cartão 3:</string>
+    <string name="msgCard4">Cartão 4:</string>
+    <string name="msgIMSI">IMSI:</string>
+    <string name="msgAlias">Apelido:</string>
+    <string name="msgContactTitle">Emergência</string>
+    <string name="msgContactExplanation">Informe aqui os números de telefones e e-mails de seus amigos que irão receber mensagens em caso de troca de cartão e outras emergências.</string>
+    <string name="msgPhone1">Tel 1:</string>
+    <string name="msgPhone2">Tel 2:</string>
+    <string name="msgPhone3">Tel 3:</string>
+    <string name="msgPhone4">Tel 4:</string>
+    <string name="msgEmail1">E-Mail 1:</string>
+    <string name="msgEmail2">E-Mail 2:</string>
+    <string name="msgEmail3">E-Mail 3:</string>
+    <string name="msgEmail4">E-Mail 4:</string>
+    <string name="msgCommand">Comando</string>
+    <string name="msgFrom">De</string>
+    <string name="msgTo">Para</string>
+    <string name="msgDate">Data</string>
+    <string name="msgProVersion">Versão PRO</string>
+    <string name="msgOnlyProVersion">Este comando estão disponível apenas no RemoteTrackerPro.</string>
+    <string name="msgPictureSent">Existe uma nova foto!</string>
+    <string name="msgPictureCaptured">Existe uma nova imagem capiturada enquanto o botão LIGAR foi pressionado!</string>
+    <string name="msgPicsCaptureOn">RemoteTracker foi configurado para começar a capturar fotos.</string>
+    <string name="msgPicsCaptureOff">RemoteTracker foi configurado para parar de capturar fotos.</string>
+    <string name="msgTakePhotosOnCallOn">RemoteTracker foi configurado para tirar fotos quando o botão LIGAR for pressionado.</string>
+    <string name="msgTakePhotosOnCallOff">RemoteTracker foi configurado para parar de tirar fotos.</string>
+    <string name="msgTakePhotosNoFrontCamera">Não existe câmera frontar neste dispositivo.</string>
+    <string name="msgNoSecretQuestion">Esta instalação não possui uma pergunta secreta.</string>
+    <string name="msgNoSecretAnswer">Esta instalação não possui uma resposta para a pergunta secreta.</string>
+    <string name="msgWrongSecretAnswer">A resposta não está correta.</string>
+    <string name="msgFileSent">O arquivo {0} foi enviado para você.</string>
+    <string name="msgFileNotSent">O arquivo {0} não pode ser enviado para você.</string>
+    <string name="msgPBCommandBody">Seus contatos estão em anexo.</string>
+    <string name="msgCallHistCommandBody">Seu histórico de chamadas estão em anexo.</string>
+    <string name="msgIncoming">Recebidas</string>
+    <string name="msgOutgoing">Realizadas</string>
+    <string name="msgMissed">Perdidas</string>
+    <string name="msgApplicationStarted">A aplicação foi iniciada.</string>
+    <string name="msgApplicationNotFound">A aplicação não foi encontrada.</string>
+    <string name="msgApplicationNotDefined">A aplicação não foi definica. Por favor utilize o parâmetro extra para definir a aplicação a executar.</string>
+    <string name="msgLock">Este dispositivo foi bloqueado pelo proprietário.</string>
+    <string name="msgDeviceLocked">Seu dispositivo foi bloqueado.</string>
+    <string name="msgDeviceUnlocked">Seu dispositivo foi desbloqueado.</string>
+    <string name="msgExample">Exemplo</string>
+    <string name="msgReturnType">Tipo de Retorno</string>
+    <string name="msgCantShowEmptyMessage">Impossível mostrar uma mensagem vazia.</string>
+    <string name="msgMessageShow">Sua mensagem foi exibida.</string>
+    <string name="msgMessage">Mensagem</string>
+    <string name="msgCantSendEmptyMessage">Impossível enviar uma mensagem vazia.</string>
+    <string name="msgEmptyNumber">Você deve definir o número do telefone.</string>
+    <string name="msgMessageSent">A mensagem foi enviada.</string>
+    <string name="msgMessageNotSent">A mensagem não foi enviada.</string>
+    <string name="msgDeviceAdmin">Ative o RemoteTracker para ser um Administrador de Dispositivo para manter seu dispositivo seguro.</string>
+    <string name="msgBuyProVersion">Compre a Versão PRO</string>
+    <string name="msgConfigurationModule">Módulo de Configuração</string>
+    <string name="msgMainExplanation">Este é um software para segurança pessoal para localizar o seu dispositivo caso você o perca. Funciona interceptando SMS e respondendo a comandos. Por favor veja detalhes na opção AJUDA.</string>
+    <string name="msgConfirmWipe">"Você precisa confirmar seu comando. Por favor envie outro SMS:</string>
+    <string name="msgDeviceNotAdmin">Esta instalação não é um Administrador de Dispositivos. Você deve marcar esta opção no menu Opções.</string>
+    <string name="msgUserNotAbleToWipe">O usuário não pode restaurar o padrão de fábrica.</string>
+    <string name="msgWrongWipeKey">A chave está errada. Tente novamente.</string>
+    <string name="msgWideDataSuccess">Restaurando seu dispositivo para o padrão de fábrica e formatando o cartão SD.</string>
+    <string name="msgSureTurnDevAdminOff">Tem certeza? Retirar o RemoteTracker de Administrador de Dispositivo faz com que qualquer pessoa possa desinstalá-lo e isso deixa seu aparelho desprotegido.</string>
+    <string name="msgTitle">RemoteTracker</string>
+    <string name="msgDonate">Por favor doe</string>
+    <string name="msgWarning">Aviso!</string>
+    <string name="msgNotAvailable">Isto não está disponível</string>
+    <string name="msgOnlyInProVersion">Disponível apenas na versão PRO.</string>
+    <string name="msgContactWithoutNumber">Este contato não possui nenhum número de telefone</string>
+    <string name="msgContactWithoutEMail">Este contato não possui nenhum endereço de e-mail</string>
+    <string name="msgYourPassword">Sua senha</string>
+    <string name="msgInvalidParameter">Parâmetro inválido.</string>
+    <string name="msgAppLiberado">Acesso liberado ao aplicativo {0}.</string>
+    <string name="msgAppNaoBloqueado">O aplicativo {0} não está bloqueado.</string>
+    <string name="msgAppBlocked">Acesso bloqueado ao aplicativo {0}.</string>
+    <string name="msgAppJaBloqueado">O aplicativo {0} já está bloqueado.</string>
+    <string name="msgNoNetwork">Rede de dados indisponível.</string>
+    <string name="msgErrorGettingAPK">Ocorreu um erro ao baixar o apk</string>
+    <string name="msgSuccessGettingAPK">O APK foi baixado corretamente.</string>
+    <string name="msgErrorInstallingAPK">Ocorreu um erro ao instalar o apk</string>
+    <string name="msgForceDownloadOk">Download de imagem forçada.</string>
+
+    <string name="mnConfig">Configurações</string>
+    <string name="mnAbout">Sobre</string>
+    <string name="mnExit">Sair</string>
+    <string name="mnBack">Voltar</string>
+    <string name="mnDonate">Doação</string>
+    <string name="mnCardChip">Cartões</string>
+    <string name="mnContacts">Contatos</string>
+    <string name="mnHistory">Histórico</string>
+    <string name="mnHelp">Ajuda</string>
+    <string name="mnEnableDeviceAdmin">Habilita Administrador de Dispositivo</string>
+    <string name="mnDisableDeviceAdmin">Desabilita Administrador de Dispositivo</string>
+
+    <string name="tvHistoryHeader">Histórico de Comandos</string>
+    <string name="tvHelpHeader">Ajuda dos Comandos</string>
+    <string name="tvVersion">Versão</string>
+    <string name="tvAuthor">Autor: </string>
+    <string name="tvAuthorNome">Joubert Vasconcelos</string>
+
+    <string name="btContact">Contato</string>
+    <string name="btOk">Ok</string>
+    <string name="btCancel">Cancelar</string>
+    <string name="btYes">Sim</string>
+    <string name="btNo">Não</string>
+    <string name="btAccept">Aceitar</string>
+    <string name="btDismiss">Esquecer</string>
+    <string name="btForum">Fórum</string>
+
+    <string name="hlpUsage1">Para enviar um comando para</string>
+    <string name="hlpUsage2">, envie um SMS com a sintaxe: RT#(comando)#(telefone ou e-mail)#(senha)</string>
+    <string name="hlpCommandList">Lista de comandos:</string>
+    <string name="hlpGP">Obter posição atual de GPS ou de rede e enviar um SMS de volta.</string>
+    <string name="hlpEGP">Igual GP, mas envia um e-mail de volta.</string>
+    <string name="hlpFGP">Igual GP, mas envia um arquivo para o servidor FTP.</string>
+    <string name="hlpGI">Obter IMEI, IMSI e ICCID e enviar um SMS de volta.</string>
+    <string name="hlpEGI">mesmo como GI, mas envia um e-mail de volta.</string>
+    <string name="hlpFGI">mesmo como GI, mas envia um arquivo para o servidor FTP.</string>
+    <string name="hlpHELP">Monta esta lista de comandos e envia um SMS de volta. Se você usar o parâmetro extra com algum comando, este comando apenas será detalhado para você.</string>
+    <string name="hlpEHELP">mesmo que HELP, mas envia um e-mail de volta.</string>
+    <string name="hlpFHELP">mesmo que HELP, mas envia um arquivo para o servidor FTP.</string>
+    <string name="hlpCB">Faz uma chamada de volta para o remetente ou para um número de telefone enviado como parâmetro.</string>
+    <string name="hlpSecret">Útil se você esquecer a sua senha. Este comando irá enviar para você sua pergunta secreta.</string>
+    <string name="hlpLostpass">Útil se você esquecer a sua senha. Este comando irá comparar uma resposta com a resposta da sua pergunta secreta. Se estiver correto sua senha será enviada para você.</string>
+    <string name="hlpCellID">Envia as informações: CELLID, LAC, MNC e MCC atuais por SMS.</string>
+    <string name="hlpECellID">Mesmo que CellID, mas envia o resultado por e-mail.</string>
+    <string name="hlpFCellID">Mesmo que CellID, mas envia o resultado para FTP Server.</string>
+    <string name="hlpPB">Obtenha seu catálogo de endereço e envia a você por SMS.</string>
+    <string name="hlpEPB">Igual PB, mas envia o resultado por e-mail.</string>
+    <string name="hlpFPB">Igual PB, mas envia o resultado para FTP Server.</string>
+    <string name="hlpListApp">Obtém uma lista de todos os aplicativos instalados e envia a você por SMS</string>
+    <string name="hlpeListApp">Mesmo que LISTAPP, mas envia um e-mail de volta</string>
+    <string name="hlpfListApp">Mesmo que LISTAPP, mas envia um arquivo para o servidor FTP</string>
+    <string name="hlpRunApp">Inicia uma aplicação. Você deve digitar o nome do aplicativo no parâmetro extra: RT#ExecutarAplicativo,(nome do aplicativo)##(senha)</string>
+    <string name="hlpLock">Mostrar uma mensagem para o usuário com sua mensagem personalizada e bloquear o seu dispositivo.</string>
+    <string name="hlpUnlock">Desbloquear o dispositivo.</string>
+    <string name="hlpMsg">Mostrar uma mensagem no seu dispositivo.</string>
+    <string name="hlpSms">Envie um SMS para qualquer telefone móvel.</string>
+
+    <string name="hlpPicsOn">Faz o RemoteTracker (apenas versão PRO) monitorar as câmeras do aparelho e enviar qualquer foto tirada para endereço padrão de e-mail.</string>
+    <string name="hlpPicsOff">Faz o RemoteTracker (apenas versão PRO) parar de monitorar as câmeras.</string>
+    <string name="hlpePicsOn">Mesmo que PICSON, mas envia um e-mail de volta.</string>
+    <string name="hlpePicsOff">Mesmo que PICSOFF, mas envia um e-mail de volta.</string>
+    <string name="hlpfPicsOn">Mesmo que PICSON, mas envia a resposta para o servidor FTP.</string>
+    <string name="hlpfPicsOff">Mesmo que PICSOFF, mas envia a resposta para o servidor FTP.</string>
+    <string name="hlpTakePhotoOnCallsOn">Faz o RemoteTracker (apenas versão PRO) monitorar o botão LIGAR. Ao ser pressionado tira uma foto com a câmera frontal e envia para endereço padrão de e-mail.</string>
+    <string name="hlpTakePhotoOnCallsOff">Faz o RemoteTracker (apenas versão PRO) parar de monitorar o botão LIGAR.</string>
+    <string name="hlpeTakePhotoOnCallsOn">Mesmo que PCALLSON, mas envia um e-mail de volta.</string>
+    <string name="hlpeTakePhotoOnCallsOff">Mesmo que PCALLSOFF, mas envia um e-mail de volta.</string>
+    <string name="hlpfTakePhotoOnCallsOn">Mesmo que PCALLSON, mas envia a resposta para o servidor FTP.</string>
+    <string name="hlpfTakePhotoOnCallsOff">Mesmo que PCALLSOFF, mas envia a resposta para o servidor FTP.</string>
+    <string name="hlpWipeData">Restaurar dispositivo para os padrões de fábrica e formata o cartão de memória (apenas versão PRO).</string>
+    <string name="hlpUnlockApp">Permite acesso a um aplicativo bloqueado por um minuto.</string>
+    <string name="hlpLockApp">Bloqueia acesso a um aplicativo bloqueado por um minuto.</string>
+    <string name="hlpApk">Baixa um APK da internet e o instala.</string>
+    <string name="hlpDeleteFile">Apaga um arquivo da memória interna</string>
+    <string name="hlpMoveToPriv">Move um apk de system/app para system/priv-app (apenas para kitkat)</string>
+    <string name="hlpTrackerOn">Inicia um serviço para enviar a localização do dispositivo de tempos em tempos (60 minutos por padrão)</string>
+    <string name="hlpTrackerOff">Para o serviço que envia a localizaçao do dispositivo de tempos em tempos</string>
+
+    <string name="sdGP">Retornar posição atual</string>
+    <string name="sdEGP">Retornar posição atual e envia um e-mail</string>
+    <string name="sdFGP">Retornar posição atual e envia para FTP</string>
+    <string name="sdGI">Retornar IMEI, IMSI e ICCID</string>
+    <string name="sdEGI">Retornar IMEI, IMSI e ICCID e envia e-mail</string>
+    <string name="sdFGI">Retornar IMEI, IMSI e ICCID e envia paraFTP</string>
+    <string name="sdHELP">Retornar lista de comandos</string>
+    <string name="sdEHELP">Retornar lista de comandos e envia e-mail</string>
+    <string name="sdFHELP">Retornar lista de comandos e envia para FTP</string>
+    <string name="sdCB">Fazer uma ligação de volta</string>
+    <string name="sdSecret">Retornar a pergunta secreta</string>
+    <string name="sdLostpass">Enviar a resposta secreta</string>
+    <string name="sdCellID">Retornar CellId, LAC, MNC e MCC</string>
+    <string name="sdECellID">Retornar CellId, LAC, MNC e MCC e envia e-mail</string>
+    <string name="sdFCellID">Retornar CellId, LAC, MNC e MCC e envia para FTP</string>
+    <string name="sdPB">Retornar os contatos</string>
+    <string name="sdEPB">Retornar os contatos e enviar e-mail</string>
+    <string name="sdFPB">Retornar os contatos e enviar para FTP</string>
+    <string name="sdListApp">Retornar lista de aplicativos</string>
+    <string name="sdeListApp">Retornar lista de aplicativos e enviar e-mail</string>
+    <string name="sdfListApp">Retornar lista de aplicativos e enviar para FTP</string>
+    <string name="sdRunApp">Executar um aplicativo</string>
+    <string name="sdLock">Travar aparelho e exibir mensagem</string>
+    <string name="sdUnlock">Destravar aparelho</string>
+    <string name="sdMsg">Exibir mensagem no aparelho</string>
+    <string name="sdSms">Enviar sms para qualquer aparelho</string>
+
+    <string name="sdPicsOn">Começar a monitorar as cameras</string>
+    <string name="sdPicsOff">Parar de monitorar as cameras</string>
+    <string name="sdePicsOn">Começar a monitorar as cameras e enviar e-mail</string>
+    <string name="sdePicsOff">Parar de monitorar as cameras e enviar e-mail</string>
+    <string name="sdfPicsOn">Começar a monitorar as cameras e enviar para FTP</string>
+    <string name="sdfPicsOff">Parar de monitorar as cameras e enviar para FTP</string>
+    <string name="sdTakePhotoOnCallsOn">Começar a monitorar o botão LIGAR</string>
+    <string name="sdTakePhotoOnCallsOff">Parar de monitorar o botão LIGAR</string>
+    <string name="sdeTakePhotoOnCallsOn">Começar a monitorar o botão LIGAR e enviar e-mail</string>
+    <string name="sdeTakePhotoOnCallsOff">Parar de monitorar o botão LIGAR e enviar e-mail</string>
+    <string name="sdfTakePhotoOnCallsOn">Começar a monitorar o botão LIGAR e enviar para to FTP</string>
+    <string name="sdfTakePhotoOnCallsOff">Parar de monitorar o botão LIGAR e enviar para FTP</string>
+    <string name="sdWipeData">Restaurar dispositivo ao padrão de fábrica</string>
+    <string name="sdUnlockApp">Permite acesso a um aplicativo bloqueado</string>
+    <string name="sdLockApp">Bloqueia acesso a um aplicativo bloqueado</string>
+    <string name="sdApk">Instala um apk</string>
+    <string name="sdDeleteFile">Apaga um arquivo</string>
+    <string name="sdMoveToPriv">Move um apk para priv-app</string>
+    <string name="sdTrackerOn">Liga o rastreador</string>
+    <string name="sdTrackerOff">Desliga o rastreador</string>
+
+    <string name="pbID">ID</string>
+    <string name="pbName">Nome</string>
+    <string name="pbHomePhone">Telefone de Casa</string>
+    <string name="pbMobilePhone">Telefone Móvel</string>
+    <string name="pbWorkPhone">Telefone do Trabalho</string>
+    <string name="pbOtherPhone">Outro Telefone</string>
+    <string name="pbCustomPhone">Telefone Customizado</string>
+    <string name="pbHomeFax">Fax de casa</string>
+    <string name="pbWorkFax">Fax do trabalho</string>
+    <string name="pbOtherFax">Outro Fax</string>
+    <string name="pbHomeEmail">EMail de Casa</string>
+    <string name="pbMobileEmail">EMail Móvel</string>
+    <string name="pbWorkEmail">EMail do Trabalho</string>
+    <string name="pbOtherEmail">Outro EMail</string>
+    <string name="pbCustomEmail">EMail Customizado</string>
+    <string name="chNumber">Númbero</string>
+    <string name="chDuration">Duração</string>
+    <string name="chType">Tipo</string>
+
+    <string name="rtrCommandToSend">Comando a enviar:</string>
+    <string name="rtrSendTo">Enviar para:</string>
+    <string name="rtrExtraParameter">Parâmetro extra:</string>
+    <string name="rtrFTPServer">O comando selecionado requer um servidor FTP e não um número de telefone.</string>
+    <string name="rtrSelectCommand">Por favor selecione um comando</string>
+    <string name="rtrPassword">Senha:</string>
+    <string name="rtrSelectACommand">-- Selecione um Comando --</string>
+    <string name="rtrPleaseSelectACommand">Por favor selecione um comando para enviar.</string>
+    <string name="rtrCommandToHelp">Comando para ajudar, ou deixe em branco:</string>
+    <string name="rtrSecretAnswer">Resposta secreta:</string>
+    <string name="rtrAppToRun">Aplicação para executar:</string>
+    <string name="rtrMessage">Sua mensagem:</string>
+    <string name="rtrNeedExtraParameter">Este comanda precisa de parâmetro extra.</string>
+    <string name="rtrNeedSendto">Digite ou selecione o número do celular.</string>
+    <string name="rtrCommandSent">O comando foi enviado com sucesso.</string>
+    <string name="rtrSuccess">Sucesso!</string>
+    <string name="rtrInvalidNumber">O número de telefone é inválido.</string>
+
+    <string name="imei">IMEI:</string>
+
+    <string name="msgFileNotDefined">O nome do arquivo não foi definido.</string>
+    <string name="msgFileDoesNotExist">O arquivo não existe.</string>
+    <string name="msgFileDoesNotExistInSystemApp">O arquivo não existe em /system/app ou aparelho não está rooteado.</string>
+    <string name="msgCouldNotDeleteTheFile">Não foi possível apagar o arquivo (não rooteado?).</string>
+    <string name="msgTheFileWasDeleted">O arquivo foi apagado.</string>
+    <string name="msgTheFileWasMovedToPriv">O arquivo foi movido para a pasta /system/priv-app.</string>
+    <string name="msgAndroidVerionPreviousKitkat">A versão do Android é inferior a Kitkat.</string>
+    <string name="msgLogStarted">O log foi iniciado</string>
+    <string name="msgLogStoped">O log foi parado</string>
+    <string name="msgLogSent">O log foi enviado para seu servidor FTP</string>
+    <string name="msgLogClear">O log foi apagado</string>
+    <string name="msgLogDoesNotExist">O log não foi localizado</string>
+    <string name="msgLogErrorSendingLog">Ocorreu um erro ao enviar o log para seu servidor FTP</string>
+    <string name="msgReset">Se você recebeu essa mensagem é porque seu telefone não está com ROOT</string>
+    <string name="msgAPKAlreadyInstalled">A aplicação já está instalada.</string>
+    <string name="avTrackerOn">O comando tracker foi iniciado com sucesso.</string>
+    <string name="avTrackerOff">O comando tracker for interrompido com sucesso.</string>
+
+    <string name="avPermissionsMissing">É necessário dar todas as permissões.</string>
+    <string name="help">Ajuda</string>
+    <string name="cards">Chips Conhecidos</string>
+    <string name="contacts">Contatos</string>
+    <string name="history">Comandos Recebidos</string>
+    <string name="config">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="aguarde">Aguarde</string>
+    <string name="avNoEMail">Você precisa definir seu endereço de email nas configurações. Deseja fazer isso agora?</string>
+    <string name="avNotAvailableInLiteVersion">Este comando não disponível na versão lite.</string>
+
+    <string name="preferenceScreen">PreferencesActivity</string>
+</resources>

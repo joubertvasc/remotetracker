@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jv.android.temperatura.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/help"/>
+
+    <item
+        android:id="@+id/action_cards"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/cards"/>
+
+    <item
+        android:id="@+id/action_contacts"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/contacts"/>
+
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/history"/>
+
+    <item
+        android:id="@+id/action_config"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/config"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/about"/>
+</menu>

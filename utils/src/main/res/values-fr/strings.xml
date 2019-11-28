@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aviso">Attention</string>
+    <string name="currentDir">Dossier en cours:</string>
+    <string name="folder">Dossier</string>
+    <string name="fileSize">Taille du fichier:</string>
+    <string name="parentFolder">Dossier Parent</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="newFolder">Nouveau dossier</string>
+    <string name="newFolderName">Nouveau nom de dossier</string>
+    <string name="failedToCreateFolder">Impossible de créer le dossier</string>
+    <string name="avGoogleEarthNaoInstalado">Il n\'y a aucune application enregistr�e pour ouvrir les fichiers KML / KMZ.</string>
+    <string name="avArquivoNaoKMZ">Ce n\'est pas un fichier KMZ / KML.</string>
+    <string name="avArquivoNaoExiste">Le fichier n\'existe pas.</string>
+    <string name="avErroAbrindoKMZ">Il y a une erreur d\'ouvrir le fichier KMZ / KML.</string>
+    <string name="warning">Attention</string>
+    <string name="success">Le succ�s</string>
+    <string name="error">Erreur</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="meters">Mètres</string>
+    <string name="feets">Feets</string>
+    <string name="kms">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="kmh">KM/h</string>
+    <string name="mph">MPH</string>
+    <string name="avOfflineUsingCache">Vous �tes maintenant d�connect�. La carte sera affich�e uniquement si vous avez mis en cache des donn�es.</string>
+    <string name="avPictureTaken">Image enregistr�e</string>
+    <string name="avErrorTakingPicture">Une erreur est survenue lors de l\'enregistrement d\'image.</string>
+    <string name="avTypeFileName">Tapez le nom de fichier:</string>
+    <string name="avInvalidEmptyName">Le nom ne peut pas �tre vide.</string>
+	<string name="avWarning">Attention</string>
+    <string name="avAppNotInstalledFromPlayStore">L\'application n\'a pas été installé à partir de Play Store.</string>
+	    
+    <string name="mnScreenCapture">Capture d\'ècran</string>
+    <string name="mnSeeMap">Vue de la carte</string>
+    <string name="mnSeeSatellite">Satellite Vue</string>
+    <string name="mnSeeHybrid">Hybrid Vue</string>
+    <string name="mnSeeTerrain">Terrain Vue</string>
+    <string name="mnMyPlace">Ma Position</string>
+    
+    <string name="btOk">OK</string>
+    <string name="btCancel">Annuler</string>
+</resources>

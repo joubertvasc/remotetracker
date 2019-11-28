@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">utils</string>
+    <string name="aviso">Advertencia</string>
+    <string name="currentDir">Directorio actual:</string>
+    <string name="folder">Directorio</string>
+    <string name="fileSize">Tamaño del archivo:</string>
+    <string name="parentFolder">Directorio principal</string>
+    <string name="ok">De acuerdo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="newFolder">Nuevo directorio</string>
+    <string name="newFolderName">Nombre del nuevo directorio</string>
+    <string name="failedToCreateFolder">No se pudo crear el directorio</string>
+    <string name="avGoogleEarthNaoInstalado">No hay ninguna aplicación registrada para abrir archivos KML/KMZ.</string>
+    <string name="avArquivoNaoKMZ">No hay ningun archivo KMZ/KML.</string>
+    <string name="avArquivoNaoExiste">El archivo no existe.</string>
+    <string name="avErroAbrindoKMZ">Hay un error al abrir el archivo KMZ/KML.</string>
+    <string name="warning">Advertencia</string>
+    <string name="success">Éxito</string>
+    <string name="error">Error</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="meters">Metros</string>
+    <string name="feets">Pies</string>
+    <string name="kms">Kilómetros</string>
+    <string name="miles">Millas</string>
+    <string name="kmh">KM/h</string>
+    <string name="mph">MPH</string>
+    <string name="avOfflineUsingCache">Ahora estás desconectado. El mapa sólo se mostrará si tiene datos en caché.</string>
+    <string name="avPictureTaken">Imagen guardada</string>
+    <string name="avErrorTakingPicture">Se ha producido un error al guardar la imagen.</string>
+    <string name="avTypeFileName">Escriba el nombre del archivo:</string>
+    <string name="avInvalidEmptyName">El nombre no puede estar vacío.</string>
+    <string name="avWarning">Advertencia</string>
+    <string name="avAppNotInstalledFromPlayStore">La aplicación no se ha instalado desde Play Store.</string>
+    <string name="avSetNewRecordClassNotDefined">Debe llamar a setNewRecordClass y definir una activity.</string>
+    <string name="avListItemsIsNull">Los artículos son nulos, por favor revise su proyecto.</string>
+    <string name="avListViewIsNull">ListView son nulos, por favor revise su proyecto.</string>
+    <string name="avAdapterIsNull">Tu Adapter son nulos, por favor revise su proyecto.</string>
+    <string name="avCancelNewItem">¿Corfirma la cancelación de la cuenta nueva?</string>
+    <string name="avCancelEditing">¿Corfirma la cancelación de la incidencia de registro?</string>
+    <string name="avConfirmErase">Usted borrará este artículo. ¿Confirmas?</string>
+
+    <string name="mnScreenCapture">Captura de pantalla</string>
+    <string name="mnSeeMap">Vista del mapa</string>
+    <string name="mnSeeSatellite">Vista por Satélite</string>
+    <string name="mnSeeHybrid">Vista Híbrida</string>
+    <string name="mnSeeTerrain">Vista del terreno</string>
+    <string name="mnMyPlace">Mi ubicacion</string>
+
+    <string name="btOk">De acuerdo</string>
+    <string name="btCancel">Cancelar</string>
+
+    <string name="sunday">Domingo</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sábado</string>
+
+    <string name="picture">Imagen</string>
+    <string name="description_info">Información</string>
+    <string name="request_permission">Esta aplicación necesita permiso de cámara.</string>
+    <string name="camera_error">Este dispositivo no soporta la API de Camera2.</string>
+</resources>

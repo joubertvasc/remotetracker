@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aviso">Aviso</string>
+    <string name="currentDir">Pasta atual:</string>
+    <string name="folder">Pasta</string>
+    <string name="fileSize">Tamanho:</string>
+    <string name="parentFolder">Pasta superior</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="newFolder">Nova Pasta</string>
+    <string name="newFolderName">Nome da Nova Pasta</string>
+    <string name="failedToCreateFolder">Erro ao criar a pasta</string>
+    <string name="avGoogleEarthNaoInstalado">Não existe nenhum aplicativo registrado para abrir arquivos KML/KMZ.</string>
+    <string name="avArquivoNaoKMZ">Este não é um arquivo KMZ/KML.</string>
+    <string name="avArquivoNaoExiste">O arquivo informado não existe.</string>
+    <string name="avErroAbrindoKMZ">Ocorreu um erro ao abrir o arquivo KMZ/KML.</string>
+    <string name="warning">Aviso</string>
+    <string name="success">Sucesso</string>
+    <string name="error">Erro</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="meters">Metros</string>
+    <string name="feets">Pés</string>
+    <string name="kms">Quilômetros</string>
+    <string name="miles">Milhas</string>
+    <string name="kmh">KM/h</string>
+    <string name="mph">MPH</string>
+    <string name="avOfflineUsingCache">Agora você está offline. O mapa será mostrado apenas se tiver em cache de dados.</string>
+    <string name="avPictureTaken">Imagem capturada</string>
+    <string name="mnScreenCapture">Capturar tela</string>
+    <string name="avErrorTakingPicture">Ocorreu um erro ao capturar a tela.</string>
+    <string name="avTypeFileName">Digite o nome do arquivo:</string>
+    <string name="avInvalidEmptyName">O nome não pode ficar vazio.</string>
+	<string name="avWarning">Aviso</string>
+    <string name="avAppNotInstalledFromPlayStore">O aplicativo não foi instalado a partir da Play Store.</string>
+    <string name="avCancelNewItem">Confirma o cancelamento do novo cadastro?</string>
+    <string name="avCancelEditing">Confirma o cancelamento da edição do registro?</string>
+    <string name="avConfirmErase">Você irá apagar este item. Confirma?</string>
+
+    <string name="mnSeeMap">Ver Mapa</string>
+    <string name="mnSeeSatellite">Ver Satélite</string>
+    <string name="mnSeeHybrid">Ver Híbrido</string>
+    <string name="mnSeeTerrain">Ver Terreno</string>
+    <string name="mnMyPlace">Meu Local</string>
+    
+    <string name="btOk">OK</string>
+    <string name="btCancel">Cancelar</string>
+    
+    <string name="sunday">Domingo</string>
+    <string name="monday">Segunda-Feira</string>
+    <string name="tuesday">Terça-Feira</string>
+    <string name="wednesday">Quarta-Feira</string>
+    <string name="thursday">Quinda-Feira</string>
+    <string name="friday">Sexta-Feira</string>
+    <string name="saturday">Sábado</string>
+
+    <string name="picture">Foto</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">É necessário as permissões de Câmera.</string>
+    <string name="camera_error">Este aparelho não suporta a Camera2 API.</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">utils</string>
+    <string name="aviso">Warning</string>
+    <string name="currentDir">Current folder:</string>
+    <string name="folder">Folder</string>
+    <string name="fileSize">File Size:</string>
+    <string name="parentFolder">Parent Folder</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="newFolder">New Folder</string>
+    <string name="newFolderName">New Folder Name</string>
+    <string name="failedToCreateFolder">Failed to create folder</string>
+    <string name="avGoogleEarthNaoInstalado">There are no application registered to open KML/KMZ files.</string>
+    <string name="avArquivoNaoKMZ">This is not a KMZ/KML file.</string>
+    <string name="avArquivoNaoExiste">The file does not exists.</string>
+    <string name="avErroAbrindoKMZ">There are an error opening the KMZ/KML file.</string>
+    <string name="warning">Warning</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="meters">Meters</string>
+    <string name="feets">Feets</string>
+    <string name="kms">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="kmh">KM/h</string>
+    <string name="mph">MPH</string>
+    <string name="avOfflineUsingCache">You are now offline. The map will be shown only if you have cached data.</string>
+    <string name="avPictureTaken">Image saved</string>
+    <string name="avErrorTakingPicture">An error occurred while saving image.</string>
+    <string name="avTypeFileName">Type the file name:</string>
+    <string name="avInvalidEmptyName">The name can\'t be empty.</string>
+    <string name="avWarning">Warning</string>
+    <string name="avAppNotInstalledFromPlayStore">The application was not installed from Play Store.</string>
+    <string name="avSetNewRecordClassNotDefined">You must call setNewRecordClass and define an activity.</string>
+    <string name="avListItemsIsNull">Items is Null, please check your project.</string>
+    <string name="avListViewIsNull">ListView is Null, please check your project.</string>
+    <string name="avAdapterIsNull">Your Adapter is Null, please check your project.</string>
+    <string name="avCancelNewItem">Do you confirm the cancellation of the new registration?</string>
+    <string name="avCancelEditing">Do you confirm the edition of the registry?</string>
+    <string name="avConfirmErase">You will erase this item. Do you confirm?</string>
+
+    <string name="mnScreenCapture">Screenshot</string>
+    <string name="mnSeeMap">Map View</string>
+    <string name="mnSeeSatellite">Satellite View</string>
+    <string name="mnSeeHybrid">Hybrid View</string>
+    <string name="mnSeeTerrain">Terrain View</string>
+    <string name="mnMyPlace">My Location</string>
+
+    <string name="btOk">OK</string>
+    <string name="btCancel">Cancel</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="emailsent">Email Sent</string>
+    <string name="emailnotsent">Email Not Sent</string>
+    <string name="emailerror">Email Error</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string></resources>

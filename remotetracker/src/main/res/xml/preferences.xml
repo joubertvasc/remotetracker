@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/preferenceScreen">
+
+    <PreferenceCategory
+        android:key="config_admin"
+        android:title="@string/configAdmin" >
+        <CheckBoxPreference
+            android:key="device_admin"
+            android:summary="@string/configDeviceAdminSummary"
+            android:title="@string/configDeviceAdminTitle" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="config_security"
+        android:title="@string/configSecurity" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configOwnerNameExample"
+            android:dialogTitle="@string/configOwnerName"
+            android:inputType="textPersonName"
+            android:key="owner_name"
+            android:summary="@string/configOwnerNameExample"
+            android:title="@string/configOwnerName" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configPasswordExample"
+            android:dialogTitle="@string/configPassword"
+            android:key="password"
+            android:password="true"
+            android:summary="@string/configPasswordExample"
+            android:title="@string/configPassword" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configQuestionExample"
+            android:dialogTitle="@string/configQuestion"
+            android:key="secretQuestion"
+            android:summary="@string/configQuestionExample"
+            android:title="@string/configQuestion" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configAnswerExample"
+            android:dialogTitle="@string/configAnswer"
+            android:key="secretAnswer"
+            android:summary="@string/configAnswerExample"
+            android:title="@string/configAnswer" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="metric_standards"
+        android:title="@string/configMetrics" >
+        <CheckBoxPreference
+            android:key="pref_metric"
+            android:summary="@string/configUsesMetricStandardsExample"
+            android:title="@string/configUsesMetricStandards" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="config_default_email_address"
+        android:title="@string/configDefaultEMailAddress" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configDefaultEMailAddressExample"
+            android:dialogTitle="@string/configDefaultEMailAddress"
+            android:inputType="textEmailAddress"
+            android:key="default_email_address"
+            android:summary="@string/configDefaultEMailAddressExample"
+            android:title="@string/configDefaultEMailAddress" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="envio_emails"
+        android:title="@string/configEnvioEMails" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configInformeNomeCompleto"
+            android:dialogTitle="@string/configNome"
+            android:inputType="textPersonName"
+            android:key="email_username"
+            android:summary="@string/configInformeNomeCompleto"
+            android:title="@string/configNome" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configInformeEnderecoEMail"
+            android:dialogTitle="@string/configEnderecoEMail"
+            android:inputType="textEmailAddress"
+            android:key="email_address"
+            android:summary="@string/configInformeEnderecoEMail"
+            android:title="@string/configEnderecoEMail" />
+
+        <CheckBoxPreference
+            android:key="email_smtp_auth"
+            android:summary="@string/configSMTPExigeAutenticacao"
+            android:title="@string/configExigeAutenticacao" >
+        </CheckBoxPreference>
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configInformeNomeLogin"
+            android:dialogTitle="@string/configNomeLogin"
+            android:key="email_user"
+            android:summary="@string/configInformeNomeLogin"
+            android:title="@string/configNomeLogin" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configInformeSenha"
+            android:dialogTitle="@string/configSenha"
+            android:key="email_password"
+            android:password="true"
+            android:summary="@string/configInformeSenha"
+            android:title="@string/configSenha" />
+        <EditTextPreference
+            android:defaultValue="smtp.gmail.com"
+            android:dialogMessage="@string/configInformeServidorSMTP"
+            android:dialogTitle="@string/configServidorSMTP"
+            android:key="email_server"
+            android:summary="@string/configInformeServidorSMTP"
+            android:title="@string/configServidorSMTP" />
+        <EditTextPreference
+            android:defaultValue="465"
+            android:dialogMessage="@string/configInformePorta"
+            android:dialogTitle="@string/configPorta"
+            android:key="email_port"
+            android:maxLength="5"
+            android:numeric="integer"
+            android:summary="@string/configInformePorta"
+            android:title="@string/configPorta" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="envio_ftp"
+        android:title="@string/configEnvioFTP" >
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configFTPServerExample"
+            android:dialogTitle="@string/configFTPServer"
+            android:key="ftp_server"
+            android:summary="@string/configFTPServerExample"
+            android:title="@string/configFTPServer" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configInformeNomeLogin"
+            android:dialogTitle="@string/configNomeLogin"
+            android:key="ftp_username"
+            android:summary="@string/configInformeNomeLogin"
+            android:title="@string/configNomeLogin" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configInformeSenha"
+            android:dialogTitle="@string/configSenha"
+            android:key="ftp_password"
+            android:password="true"
+            android:summary="@string/configInformeSenha"
+            android:title="@string/configSenha" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/configRemotePathExample"
+            android:dialogTitle="@string/configRemotePath"
+            android:key="ftp_remote_path"
+            android:summary="@string/configRemotePathExample"
+            android:title="@string/configRemotePath" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="gps_config"
+        android:title="@string/configGPS" >
+        <EditTextPreference
+            android:defaultValue="120"
+            android:dialogMessage="@string/configGPSTimeoutExplanation"
+            android:dialogTitle="@string/configGPSTimeout"
+            android:key="gps_timeout"
+            android:maxLength="3"
+            android:numeric="integer"
+            android:summary="@string/configGPSTimeoutExplanation"
+            android:title="@string/configGPSTimeout" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="other_config"
+        android:title="@string/configOther" >
+        <CheckBoxPreference
+            android:key="debug_mode"
+            android:summary="@string/configDebugExample"
+            android:title="@string/configDebug" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
